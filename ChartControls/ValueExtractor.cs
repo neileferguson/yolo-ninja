@@ -16,6 +16,11 @@ namespace StockTraderRI.ChartControls
             return new ValueExtractor();
         }
 
+        /// <summary>
+        /// Adding a comment
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="args"></param>
         private static void OnValuePathChanged(DependencyObject sender, DependencyPropertyChangedEventArgs args)
         {
             ValueExtractor v = sender as ValueExtractor;
