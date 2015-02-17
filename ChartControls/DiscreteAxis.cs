@@ -9,6 +9,9 @@ using System.Collections.ObjectModel;
 
 namespace StockTraderRI.ChartControls
 {
+    /// <summary>
+    /// This is a comment in TestBranch1
+    /// </summary>
     public class DiscreteAxis : ItemsControl
     {
         static DiscreteAxis()
